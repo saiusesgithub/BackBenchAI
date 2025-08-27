@@ -25,7 +25,21 @@ class _HomePageState extends State<HomePage> {
         ),
         centerTitle: true,
       ),
-      body: Container(),
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        child: Center(
+          child: Text(
+            'Welcome to BackBench AI!\nUpload a file to get started.',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Colors.white70,
+              fontSize: 20,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+        ),
+      ),
       floatingActionButton: _uploadFileButton(),
     );
   }
@@ -36,7 +50,7 @@ class _HomePageState extends State<HomePage> {
       isExtended: true,
       backgroundColor: Color.fromARGB(255, 25, 25, 25),
       foregroundColor: Color.fromARGB(255, 124, 92, 255),
-      icon: Icon(Icons.add),
+      icon: Icon(Icons.upload_file),
       label: Text('Upload File', style: TextStyle(fontWeight: FontWeight.w600)),
     );
   }

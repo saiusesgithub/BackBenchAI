@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445614075844",
+    "project_id": "backbenchai",
+    "storage_bucket": "backbenchai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445614075844:android:fbfc1b91d4e11c98ca3e91",
+        "android_client_info": {
+          "package_name": "com.example.backbenchai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtBtf_UBN68xbwJX8t9MRH_FgQViR2Awg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
