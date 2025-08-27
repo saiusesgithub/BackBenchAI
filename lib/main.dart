@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'BackBench AI',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromARGB(225, 208, 0, 255),
+          seedColor: Color.fromARGB(255, 124, 92, 255),
         ),
         fontFamily: 'Nunito',
         useMaterial3: true,
