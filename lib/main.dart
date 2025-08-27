@@ -11,9 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'BackBench AI',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Color.fromARGB(225, 208, 0, 255),
+        ),
+        fontFamily: 'Nunito',
+        useMaterial3: true,
       ),
       home: HomePage(),
     );
